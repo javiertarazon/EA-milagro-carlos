@@ -1,0 +1,54 @@
+; ORB window 09:30 -> 09:45 (15min), EOD OFF, config recomendada
+; === RANGO DE APERTURA (ORB) ===
+InpORBStartHour=9
+InpORBStartMin=30
+InpORBEndHour=9
+InpORBEndMin=45
+InpUseEODClose=false
+InpCloseHour=16
+InpCloseMin=0
+; === FILTROS ATR Y RVOL ===
+InpUseATRFilter=false
+InpATRTimeframe=16385
+InpATRPeriod=14
+InpATRMultiplier=1.0
+InpUseRVOLFilter=false
+InpRVOLPeriod=20
+InpRVOLMultiplier=1.5
+; === GESTION DE RIESGO ===
+InpRiskPercent=1.0
+InpSLBufferPips=2.0
+InpTPRatio=6.0
+InpMinSLPoints=20
+InpMaxMarginPct=50
+InpMaxTradesDay=2
+InpMaxDailyLoss=-500.0
+InpCloseOnDailyLoss=true
+; === GENERAL ===
+InpMagicNumber=178558
+InpSlippage=50
+InpTradeComment=ORB
+InpShowORBPanel=false
+InpRetryAttempts=3
+InpRetryDelayMs=250
+InpRetryCooldownSec=60
+; === BREAKEVEN Y TRAILING ===
+InpUseBreakEven=true
+InpBEActivatePips=4.0
+InpBEPlusPips=2.0
+InpUseTrailing=true
+InpTrailStartPips=12.0
+InpTrailDistPips=6.0
+InpTrailStepPips=3.0
+InpTrailCooldownSec=10
+; === SENALES Y VISUALES ===
+InpDrawSignals=false
+InpColorBuy=65280
+InpColorSell=255
+InpShowEMAs=false
+InpEMAFast=9
+InpEMAMedium=21
+InpEMASlow=50
+InpColorEMAFast=16748574
+InpColorEMAMedium=42495
+InpColorEMASlow=16711935
