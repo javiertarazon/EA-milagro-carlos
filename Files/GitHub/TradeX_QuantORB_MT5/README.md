@@ -19,6 +19,19 @@
 - `margin_level ≈ 199%` en todos los años → **uso de margen siempre ~50%** (el tope `InpMaxMarginPct=50` actúa de forma determinista).
 - Config: **ventana ORB 16:30–16:45** (hora broker), coincide con la apertura de Nueva York.
 
+### Resultados NETOS con comisión real del broker (Pepperstone Razor: $3.50/lote/lado)
+
+Calculados con los **lotes reales** de cada operación del log del tester (detalle en `results/comisiones_reales.md`):
+
+| Año | Profit bruto | Comisión | **Profit NETO** |
+|-----|--------------|----------|-----------------|
+| 2023 | +85,137 | −27,497 | **+57,639** |
+| 2024 | +120,242 | −29,597 | **+90,645** |
+| 2025 | +91,290 | −13,466 | **+77,824** |
+| 2026 YTD | +62,300 | −8,248 | **+54,052** |
+
+Comparativa de brokers en `results/comisiones_reales.md` (Vantage RAW ~$6/lote redondo vs Pepperstone $7).
+
 ### Comparación con la base original (sin ajustar)
 
 | Año | Config original (9h, sin tuning) | Config 16h validada |
